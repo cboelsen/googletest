@@ -16,6 +16,7 @@ def build( bld ):
     if bld.env.DEST_OS is 'linux':
 
         ext_paths = ['/usr/lib/i386-linux-gnu'
+                   , '/usr/lib/arm-linux-gnueabi'
                    , '/usr/lib/x86_64-linux-gnu']
 
         bld.read_shlib( 'pthread'
