@@ -1,7 +1,9 @@
 #! /usr/bin/env python
 # encoding: utf-8
+# Christian Boelsen
 
-import os
+# these variables are mandatory( '/' are converted automatically )
+top = '../..'
 
 def configure( cnf ):
 
